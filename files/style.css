@@ -84,7 +84,7 @@ header {
   background-image: url('images/header.jpg');
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 400px;
   position: relative;
 
   display: flex;
@@ -125,7 +125,7 @@ header h1 em {
 }
 
 header h1 strong {
-  font-size: 68px;
+  font-size: 58px;
   letter-spacing: 4px;
 }
 
