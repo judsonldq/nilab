@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>苏健</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>苏健</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>模式挖掘和预测</li></a>
+        <a class="nav-link" href="#traffic" rel="internal"><li>交通大数据研究</li></a>
+        <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a>
+        <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/数据挖掘/模式挖掘</p>
+          <li>2019.09 至今 航天科技集团 </li>
+          <li>2017.09-2019.7 北京交通大学 | 通信与信息系统 | 硕士 </li>
+          <li>2012.09-2016.07 安徽农业大学 | 电子信息工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:1219611671@qq.com">1219611671@qq.com</a> </p>
+          <p><strong>Github：</strong>： <a href="#">sujianleo</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="基站模式挖掘和预测">
+          <header>大规模基站网络流量模式挖掘和预测</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+       
+			<p>随着4G无线技术普及，无线基站流量持续增加。作为承载无线网络的基础设施，分析基站流量的静态和动态特征、挖掘基站流量演变模式对无线基站的运营方案制定、参数合理配置至关重要。目前已有的测量和模型工作，聚焦在短时间粒度（如分钟、小时、天）的流量变化规律，至今尚缺少一个长时间尺度（如一年）的城市基站流量变化的准确测量和模式挖掘结果。</p>
+			<p>为此，本文基于一个中国大型无线网络运营商在一个大型城市的基站网络的流量测量数据，对超过7千个基站、以月度为单位、持续一年的基站流量的静态和动态特征进行了观察与测量，并对基站流量的时间变化模式进行了聚类、分析和预测。本文贡献如下：</p>
+            <p>(1) 提出了一种新的基站流量演变模式的聚类方法。该方法基于基站月度总流量值在一年内的排序序列进行聚类。在我们数据集上的实验结果表明：该方法对短时间序列（不存在周期性）的波形涨跌特点有很好的描述，能得到比传统方法更容易理解的聚类结果。</p>
+			<p>(2) 基于该聚类方法，我们对运营商的7千多个基站的流量演变模式进行了大规模聚类分析，获得了6种典型基站流量演变模式，最主要的一种流量模式涵盖了38.6%的基站，特点为流量总体呈上升趋势，11月份达到高峰，次年2月降到低谷。其它模式包括：“春节返乡”、 “双11”电商购物模式等。结合该城市的特点，我们对各模式的形成原因做出了解释，这些发现为运营商掌握其基站的流量演变的规律提供了有益的指导。</p>
+			<p>(3) 提出了一种基于基站地理位置和地址语义信息的基站模式预测方法，对一个新建基站的流量模式进行预测。因为新建基站的初始信息很少，预测困难，因此我们创新性地将基站语义标签信息引入到基站流量模式预测中。实验结果表明：通过加入基站词向量表征，预测模型的F1-score提升了5%，其中两种模式的预测准确度较高。</p>
+			<p>本文对大规模实际基站网络流量的分析结果对于网络运营商有重要的实际价值，本文提出的长期流量变化模式模型、聚类算法、和预测算法，具有通用性，能够被应用于类似的各种应用场景，具有重要的理论价值和实际意义。</p>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2018年硕士毕业论文《大规模基站网络流量模式挖掘和预测》，
+                <a href="./毕业论文最终版本_签名版.pdf">PDF</a>（2.73MB），
+                <a href="毕业论文最终版本.docx">WORD</a>（3.85MB），
+                <a href="毕业答辩PPT.pptx">PPT</a> （5.3MB），
+                <!--<a href="#">Video</a>（B站链接），
+                <a href="#">Code</a> （Github链接，Private）
+			</li>-->
+
+		  </article>
+          </section>
+
+          <section class="main-section" id="traffic">
+            <header>交通大数据</header>
+            <article>
+              <li>数据：贵州高速公路的历史收费数据（6年X365天）</li>
+			  <li>预测：贵州省高速公路的总流量、周转量等众多指标进行预测</li>
+			  <li>方案：数据进行可视化分析，结合实际与数据，逐一分析时间序列四大组成成分(趋势/周期/突发点/噪声)，建立模型。使用Facebook开源大规模商业时序预测工具Prophet对此作出预测，并对其底层代码(Pystan)进行修改，年平均误差控制在6%以内，天平均误差控制在13%以内，LSTM（baseline）|已经交付交通厅使用</p>
+              <li></li>
+            </article>
+            </section>
+
+          <section class="main-section" id="talk">
+            <header>演讲</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    </body>
+</html>
