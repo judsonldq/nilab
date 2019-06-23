@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>陈泽龙</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>陈泽龙</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>自然语言处理</li></a>
+        <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a>
+        <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：自然语言处理</p>
+          <li>2017.09-2019.7 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2012.09-2016.07 石家庄铁道大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:chen_zelong@126.com">chen_zelong@126.com</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="自然语言处理">
+          <header>基于句法表征的专利文本相似性评估</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+       
+			<p>当下，对于专利相似性的研究非常重要。当用户申请新专利时，他们需要在专利数据库中进行相似专利检索，以进行专利查新，并且防止专利侵权，还可以从相似专利中获得灵感。因此这就对专利相似性评估提出了一定的要求。</p>
+			<p>专利主权项是专利文本的核心内容，全面阐述了本专利所保护的技术范围，专利相似的判定一般以权利主权项为标准。本论文对专利主权项文本进行深入研究，基于专利文本的SAO（Subject-Action-Object, 主谓宾）句式特点，提出了一种基于句法表征的专利文本相似度算法。本论文基于这样一种假设：相似专利之间会出现相似关键词和相似句子。通过文本挖掘技术，挖掘出专利文本中的关键词来表征文本的含义。首先，通过关键词语义信息和句子结构特征计算专利文本之间的句子相似度，然后通过专利文本之间的句子相似度计算专利文本相似度。</p>
+            <p>本文的主要工作如下：</p>
+			<p>首先，利用文本挖掘技术提取专利文本中的关键词，对于分词效果不佳的关键词，总结其构词规律，利用基于规则的命名实体识别技术进行提取。</p>
+			<p>然后，考虑到专利文本包含大量SAO或SA（Subject-Action, 主谓）或AO（Action-Object, 动宾）结构，将文本切割成具有上述结构的“子句”集合，结合“子句”中关键词的语义信息和关键词的位置信息利用稳定匹配算法计算专利文本之间各个“子句”相似度。</p>
+			<p>最后，由于文本中的“子句”具有序列性，文本中的前后“子句”存在联系，所以将专利文本“子句”集合视为时间序列集合，利用DTW（Dynamic Time Warping，动态时间归整）算法通过比较“子句”序列之间的相似性计算专利文本相似性。</p>
+			<p>最终，通过实验验证了本算法的有效性。实验结果表明本文提出的这种针对专利文本句式结构所制定的专利文本相似度算法相对于传统算法效果更好。</p>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2019年硕士毕业论文《基于句法表征的专利文本相似性评估》，
+                <a href="./毕业论文最终版本_签名版.pdf">PDF</a>（2.73MB），
+                <a href="毕业论文最终版本.docx">WORD</a>（3.85MB），
+                <a href="毕业答辩PPT.pptx">PPT</a> （5.3MB），
+                <!--<a href="#">Video</a>（B站链接），
+                <a href="#">Code</a> （Github链接，Private）
+			</li>-->
+
+		  </article>
+          </section>
+
+          <section class="main-section" id="traffic">
+            <header></header>
+            <article>
+              <li></li>
+			  <li></li>
+			  <li></p>
+              <li></li>
+            </article>
+            </section>
+
+          <section class="main-section" id="talk">
+            <header>演讲</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    </body>
+</html>
