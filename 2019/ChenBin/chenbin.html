@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>陈滨</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>陈滨</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#traffic" rel="internal"><li>基于深度学习的心电图类型识别和个体识别</li></a>
+        <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a>
+        <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/数据挖掘/模式挖掘</p>
+          <li>2019.09 至今 中证信息技术服务有限责任公司 </li>
+          <li>2016.09-2019.06 北京交通大学 | 通信与信息系统 | 硕士 </li>
+          <li>2012.09-2016.06 北京交通大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:1219611671@qq.com">18311029196@163.com</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="基于深度学习的心电研究">
+          <header>基于深度学习的心电图类型识别和个体识别</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+       
+			<p>传统上，医生采用人工的方式判读心电图以评估患者病情。近年来，人工智能技术促进了心电图数据的智能信息挖掘，实现了心电图类型自动识别及异常发现，也实现了以心电图为生物特征的个体识别系统。</p>
+			<p>典型的基于人工智能的心电图分析系统包括三个主要处理过程，包括心电图样本生成、特征提取和模型分类。现有研究在这三个处理过程上均存在明显不足。样本生成阶段使用固定序列长度切分心拍且切分的起始位置固定，没有考虑心拍长度的动态性和导致切分得到的样本数量非常有限，严重影响了系统的分类性能。特征提取阶段提出的不同特征提取方法，大都基于单个心拍提取特征，忽略了心拍内部的局部特征和心拍之间的内在关联。最后，分类阶段所使用简单的神经网络，不能准确获取不同特征向量的权重，导致模型分类效果受限。综上，现有基于深度学习的心电研究还存在明显的性能提升空间。</p>
+			<p>为此，本文完成了基于深度学习的心电图类型识别（工作1）和心电图个体识别（工作2）的两项研究。本文思想是提出准确的心拍切分方法和有效的特征提取方法，改善神经网络分类器，提高现有心电系统的性能，对基于心电图的系统实用化具有重要价值和理论意义。论文的主要贡献如下。</p>
+            <p>(1) 提出了一种自适应动态心拍切分方法，准确切分心拍，提升了工作1的识别准确率。该方法利用动态的RR间隔长度表示单个心拍长度，并依据此切分心拍，体现心拍长度的动态性。此外，工作2改进了一种样本提取方法，解决了现有研究样本数量不足的问题，同时避免了现有研究中训练数据和测试数据重叠导致的评估效果虚高的问题。</p>
+			<p>(2) 提出了基于多尺度的特征提取方法，从多维度挖掘到心电图的显著特征，明显改善了工作1的模型分类效果。方法的主要特点是，从局部心拍、单个心拍和多个心拍三种尺度上，分别利用深度学习自动提取特征和心电图医学知识手动提取特征，从而实现了对样本更为丰富和准确的表达。</p>
+			<p>将计算机视觉中的通道注意力方法引入到神经网络模型中，自动给不同特征向量分配权重，进一步提升了模型识别效果。最终实验表明，本文在工作1和2中的识别准确率分别高达96.94%和95.86%，比现有研究分别提高了3.5%和3.0%。</p>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2019年硕士毕业论文《基于深度学习的心电图类型识别和个体识别》，
+                <a href="./毕业论文最终版本_签名版.pdf">PDF</a>（2.73MB），
+                <a href="毕业论文最终版本.docx">WORD</a>（3.85MB），
+                <a href="毕业答辩PPT.pptx">PPT</a> （5.3MB），
+                <!--<a href="#">Video</a>（B站链接），
+                <a href="#">Code</a> （Github链接，Private）
+			</li>-->
+
+		  </article>
+          </section>
+
+            </section>
+
+          <section class="main-section" id="talk">
+            <header>演讲</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    </body>
+</html>
