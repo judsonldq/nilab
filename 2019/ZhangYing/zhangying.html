@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>张莹</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>张莹</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#traffic" rel="internal"><li>视频广告内容识别研究</li></a>
+        <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a>
+        <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/数据挖掘/模式挖掘</p>
+          <li>2017.09-2019.7 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2013.09-2017.07 大连民族大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:1219611671@qq.com">17125082@bjtu.edu.cn</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="视频广告内容识别研究">
+          <header>视频广告内容识别研究</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+       
+			<p>随着互联网广告行业的快速发展，视频广告在广告投放中占据着越来越重要 的地位，视频广告的自动识别可以帮助广告商判断网站是否按约定投放广告，同时 也可以帮助咨询机构根据广告投放量分析广告主的经营状况。随着广告转化率􏰀 升需求的不断增长，近几年出现了一种在电视剧中插播的新型视频广告形式，广告 方依托电视剧的故事背景和人物关系构思广告创意，将广告做成“番外篇短视频”穿 插在剧集中，称为“中插广告”。这种广告形式模糊了广告与剧情的界限，使得传统 广告的自动识别方法不再适用。</p>
+			<p>本文针对传统广告自动识别系统在镜头切分、镜头分类和广告内容识别模块 上不适应中插广告识别的具体问题，利用深度学习技术与传统的计算机视觉处理 技术，结合图像特征、音频特征和文本特征，从时间和空间多角度出发，设计了一 种中插广告的自动识别系统。本文的主要贡献有如下三点:</p>
+            <p>(1) 针对视频中镜头间渐变情况􏰀出一种新的镜头切分方法。由于中插广告和 剧情的场景相似，因而在剧情镜头与广告镜头之间较多采用镜头渐变切换，相比传 统广告采用的镜头突变切换，镜头切分更为困难。基于对中插广告的观察，发现渐 变过程中会出现黑镜头，本文跳出计算帧间距离的常规思路，􏰀出一种简单有效的 利用颜色变化趋势切分渐变镜头的解决方案。</p>
+			<p>(2) 针对广告镜头与剧情镜头的视频特征高度相似难以区分的问题，本文􏰀出 利用 LSTM 网络和 Attention 网络组合，获取音视频时序高维特征并强化显著特征， 改善视频镜头分类性能。传统的广告识别系统采用 CNN 网络进行音视频特征深度 表达，未利用视频帧序列的时序相关性，本文利用 LSTM 来获取前后帧的时序关 系;进一步，本文使用了 Attention 网络获得不同维度特征在镜头分类结果中的占 比，强化性能影响显著的特征向量。实验表明本文􏰀出的方法分类准确率可以达到 88%，相比传统的机器学习方法􏰀高了 4%。</p>
+			<p>(3) 针对广告中 Logo 不显著甚至没有 Logo 导致基于 Logo 的广告识别方法无 效的问题，本文􏰀出了结合文字识别和音频特征匹配的广告内容识别方法。基于对 中插广告的观察，大量广告以文字替代 Logo 标识广告商品，也有一些广告甚至没 有文字仅以声音标识广告商品。因此本文采用 OCR 文字识别技术结合音频色谱图 特征匹配的方法进行广告内容识别，准确率可以达到 98%。</p>
+			<p>本文设计实现的中插广告自动识别系统不仅可以检测出视频中是否存在中插 广告，同时还可以识别具体的广告内容，具有很强的现实意义和实际价值。</p>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2018年硕士毕业论文《中插广告自动识别系统的设计与实现》，
+                <a href="./毕业论文最终版本_签名版.pdf">PDF</a>（2.73MB），
+                <a href="毕业论文最终版本.docx">WORD</a>（3.85MB），
+                <a href="毕业答辩PPT.pptx">PPT</a> （5.3MB），
+                <!--<a href="#">Video</a>（B站链接），
+                <a href="#">Code</a> （Github链接，Private）
+			</li>-->
+
+		  </article>
+          </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    </body>
+</html>
