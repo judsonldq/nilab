@@ -1,0 +1,102 @@
+2019/Aifangzhe:
+total 15920
+-rw-r--r--  1 yishuai  staff    15K  6 20 18:42 EDM2019.docx
+-rw-r--r--  1 yishuai  staff   666K  6 20 18:42 EDM2019.pdf
+-rw-r--r--  1 yishuai  staff   7.0K  6 25 10:57 aifangzhe.html
+-rw-r--r--  1 yishuai  staff   3.6M  6 20 18:42 硕士毕业论文签名版.pdf
+-rw-r--r--  1 yishuai  staff   2.3M  6 20 18:42 基于知识追踪的智能导学算法设计.docx
+-rw-r--r--  1 yishuai  staff   1.2M  6 20 18:42 基于知识追踪的智能导学算法设计.pptx
+
+2019/ChenBin:
+total 43184
+-rw-r--r--  1 yishuai  staff   102K  6 25 10:36 ECG classification based on unfixed length segmentation of heartbeat.pdf
+-rw-r--r--  1 yishuai  staff   8.1M  6 25 10:36 ECG classification based on unfixed length segmentation of heartbeat.pptx
+-rw-r--r--  1 yishuai  staff   4.4K  6 25 11:02 chenbin.html
+-rw-r--r--  1 yishuai  staff   219K  6 25 10:36 poster.pdf
+-rw-r--r--  1 yishuai  staff   1.7M  6 25 10:36 陈滨_毕业答辩PPT.pdf
+-rw-r--r--  1 yishuai  staff   2.5M  6 25 10:36 陈滨_毕业答辩PPT.pptx
+-rw-r--r--  1 yishuai  staff   4.6M  6 25 10:36 陈滨_毕业论文_最终版.doc
+-rw-r--r--  1 yishuai  staff   3.8M  6 25 10:36 陈滨_毕业论文_最终版.pdf
+
+2019/ChenZelong:
+total 19616
+-rw-r--r--  1 yishuai  staff   5.7M  6 25 10:36 11-陈泽龙-0526.pptx
+-rw-r--r--  1 yishuai  staff   5.1K  6 25 10:57 chengzelong.html
+-rw-r--r--  1 yishuai  staff   1.9M  6 25 10:36 陈泽龙.docx
+-rw-r--r--  1 yishuai  staff   2.0M  6 25 10:36 陈泽龙.pdf
+
+2019/Family:
+total 19808
+-rw-r--r--  1 yishuai  staff   5.7M  6 20 18:42 7704277691fb545f3f905a568d5be37.jpg
+-rw-r--r--  1 yishuai  staff   4.0M  6 20 18:42 b11af598d2bc41cca2b71f57d794c5e.jpg
+
+2019/HuAnmin:
+total 57104
+-rw-r--r--  1 yishuai  staff   557K  6 20 18:42 ICCE-tw2019.doc
+-rw-r--r--  1 yishuai  staff   1.0M  6 20 18:42 ICCE-tw2019.pdf
+-rw-r--r--  1 yishuai  staff   9.9M  6 20 18:42 ICCE-tw2019.pptx
+-rw-r--r--  1 yishuai  staff   6.0K  6 25 10:57 anminhu.html
+-rw-r--r--  1 yishuai  staff   3.7M  6 20 18:42 毕业设计.docx
+-rw-r--r--  1 yishuai  staff   4.0M  6 20 18:42 毕业设计.pdf
+-rw-r--r--  1 yishuai  staff   8.7M  6 20 18:42 毕业设计.pptx
+
+2019/LiuYijian:
+total 8344
+-rw-r--r--  1 yishuai  staff   1.6M  6 25 10:36 15-刘一健.pptx
+-rw-r--r--  1 yishuai  staff   5.7K  6 25 10:57 liuyijian.html
+-rw-r--r--  1 yishuai  staff   2.5M  6 25 10:36 刘一健论文.pdf
+
+2019/ShengYe:
+total 22392
+-rw-r--r--  1 yishuai  staff   5.4K  6 25 10:57 shengye.html
+-rw-r--r--  1 yishuai  staff    14K  6 25 10:36 中文摘要.docx
+-rw-r--r--  1 yishuai  staff   5.5M  6 25 10:36 毕业论文.docx
+-rw-r--r--  1 yishuai  staff   2.6M  6 25 10:36 毕业论文.pdf
+-rw-r--r--  1 yishuai  staff   2.8M  6 25 10:36 毕业答辩PPT.pptx
+
+2019/SuJian:
+total 24472
+-rw-r--r--  1 yishuai  staff   6.2K  6 25 10:57 sujian.html
+-rw-r--r--  1 yishuai  staff    14K  6 20 18:42 中文摘要.docx
+-rw-r--r--  1 yishuai  staff   5.3M  6 20 18:42 毕业答辩PPT.pptx
+-rw-r--r--  1 yishuai  staff   3.9M  6 20 18:42 毕业论文最终版本.docx
+-rw-r--r--  1 yishuai  staff   2.7M  6 20 18:42 毕业论文最终版本_签名版.pdf
+
+2019/TangWeikang:
+total 15480
+-rw-r--r--  1 yishuai  staff   1.9M  6 20 18:42 tangweikang.docx
+-rw-r--r--  1 yishuai  staff   6.7K  6 25 10:57 tangweikang.html
+-rw-r--r--  1 yishuai  staff   1.9M  6 20 18:42 tangweikang.pdf
+-rw-r--r--  1 yishuai  staff   3.8M  6 20 18:42 唐伟康毕业答辩.pptx
+
+2019/Template:
+total 1288
+-rw-r--r--@ 1 yishuai  staff    16K  5 18 09:06 IEICE2018.docx
+-rw-r--r--@ 1 yishuai  staff   614K  2 20 09:40 IEICE2018.pdf
+-rw-r--r--@ 1 yishuai  staff   1.9K  5  2 15:31 liststyle.css
+-rw-r--r--@ 1 yishuai  staff   6.6K  6 25 10:57 tanxiaoying.html
+
+2019/WangWei:
+total 9608
+-rw-r--r--  1 yishuai  staff   1.5M  6 25 10:36 WangWei.pptx
+-rw-r--r--  1 yishuai  staff   6.6K  6 25 10:36 wangwei.html
+-rw-r--r--  1 yishuai  staff   1.6M  6 25 10:36 王唯.docx
+-rw-r--r--  1 yishuai  staff   1.6M  6 25 10:36 王唯.pdf
+
+2019/WeiZhongrui:
+total 16
+-rw-r--r--  1 yishuai  staff   6.5K  6 25 10:57 tanxiaoying.html
+
+2019/ZhangJialin:
+total 17792
+-rw-r--r--  1 yishuai  staff   116K  6 25 10:36 Bystander.pdf
+-rw-r--r--  1 yishuai  staff   5.5K  6 25 10:57 zhangjialin.html
+-rw-r--r--  1 yishuai  staff   4.5M  6 25 10:36 张加林.docx
+-rw-r--r--  1 yishuai  staff   4.1M  6 25 10:36 张加林.pdf
+
+2019/ZhangYing:
+total 26832
+-rw-r--r--  1 yishuai  staff   5.0M  6 25 10:36 17125082-张莹.pdf
+-rw-r--r--  1 yishuai  staff   8.0M  6 25 10:36 21+张莹(1).pptx
+-rw-r--r--  1 yishuai  staff   5.5K  6 25 10:57 zhangying.html
+-rw-r--r--  1 yishuai  staff    28K  6 25 10:36 数据路径.docx

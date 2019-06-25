@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>刘一健</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="../../files/liststyle.css" />
     </head>
 
     <body>
@@ -14,9 +14,6 @@
         <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
         <a class="nav-link" href="#recom" rel="internal"><li>政协提案挖掘与舆情分析</li></a>
         <a class="nav-link" href="#traffic" rel="internal"><li>政协提案的主题发现、关键词提取与舆情分析</li></a>
-        <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a>
-        <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
-        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
       </ul>
     </nav>
     <main id="main-doc">
@@ -32,70 +29,33 @@
           </artice>
         </section>
 
-        <section class="main-section" id="基站模式挖掘和预测">
+        <section class="main-section" id="recom">
           <header>基于机器学习的政协提案和相关舆情的分析</header>
           <article>
             <p> <strong>摘要</strong>：</p>
-       
-			<p>全国政协提案是我国政治制度非常重要的机制之一，每年全国各级政协委员都要提出提案，仅北京市2018年公开的提案就有798件，全国各级政协委员提出的提案总数更多。采用技术手段对政协委员形成的提案进行热点主题发现，并根据这些热点主题进行舆情统计分析，可以挖掘相应的社情民意，为政协委员提供技术信息的参考。</p>
-			<p>目前，关于提案的热点主题发现和采用技术手段对热点主题进行舆情统计的相关研究尚未见到。本文设计了一套政协提案及其相关舆情分析系统，为政协委员提供信息技术支持。本文主要工作包括以下几个方面：</p>
+
+      			<p>全国政协提案是我国政治制度非常重要的机制之一，每年全国各级政协委员都要提出提案，仅北京市2018年公开的提案就有798件，全国各级政协委员提出的提案总数更多。采用技术手段对政协委员形成的提案进行热点主题发现，并根据这些热点主题进行舆情统计分析，可以挖掘相应的社情民意，为政协委员提供技术信息的参考。</p>
+      			<p>目前，关于提案的热点主题发现和采用技术手段对热点主题进行舆情统计的相关研究尚未见到。本文设计了一套政协提案及其相关舆情分析系统，为政协委员提供信息技术支持。本文主要工作包括以下几个方面：</p>
             <p>(1) 对政协提案划分主题并提取关键词。编写网络爬虫程序，从政协提案网站采集了提案数据；根据政协提案的结构特点对提案进行向量化表示，使用K-means聚类算法对提案进行聚类，每一类表示一个主题；设计了两种关键词提取算法从每个主题中分别提取出三个关键词，分别简称“长词”和“短词”，并设计对比实验分析了两组关键词的有效性，结果表明“长词”比“短词”更能反映主题内容。</p>
-			<p>(2) 设计、训练情感分类模型并预测所有未标注数据的标签。开发爬虫程序，采集了每个“长词”的微博舆情数据并保存为结构化文本格式；设计了基于双向LSTM的情感分类模型，训练模型，在测试集上达到了90.45%的准确率，远远高于基于传统机器学习算法的情感分类模型在该数据集上的测试准确率。</p>
-			<p>(3) 对政协提案的相关舆情进行统计并可视化。在上述工作的基础上，对获取的微博舆情数据进行了统计：从关注度演进趋势和关注度大小、情感演进趋势和情感倾向等角度对每个主题的相关舆情进行了统计分析。</p>
+      			<p>(2) 设计、训练情感分类模型并预测所有未标注数据的标签。开发爬虫程序，采集了每个“长词”的微博舆情数据并保存为结构化文本格式；设计了基于双向LSTM的情感分类模型，训练模型，在测试集上达到了90.45%的准确率，远远高于基于传统机器学习算法的情感分类模型在该数据集上的测试准确率。</p>
+      			<p>(3) 对政协提案的相关舆情进行统计并可视化。在上述工作的基础上，对获取的微博舆情数据进行了统计：从关注度演进趋势和关注度大小、情感演进趋势和情感倾向等角度对每个主题的相关舆情进行了统计分析。</p>
 
             <p> <strong>成果</strong>：</p>
             <li>
                 北京交通大学2019年硕士毕业论文《基于机器学习的政协提案和相关舆情的分析》，
-                <a href="./毕业论文最终版本_签名版.pdf">PDF</a>（2.73MB），
-                <a href="毕业论文最终版本.docx">WORD</a>（3.85MB），
-                <a href="毕业答辩PPT.pptx">PPT</a> （5.3MB），
-                <!--<a href="#">Video</a>（B站链接），
-                <a href="#">Code</a> （Github链接，Private）
-			</li>-->
+                <a href="刘一健论文.pdf">PDF</a>（2.73MB），
+                <a href="15-刘一健.pptx">PPT</a> （5.3MB），
+      			</li>
+		      </article>
+      </section>
 
-		  </article>
-          </section>
-
-          <section class="main-section" id="traffic">
+        <section class="main-section" id="traffic">
             <header>政协提案及其相关舆情的挖掘分析</header>
             <article>
               <li>数据：2018年北京市政协提案数据</li>
-			  <li>方案：获取公开的政协提案数据，对政协提案数据进行挖掘分析，为政协委员提供信息技术支持。具体如下：将相同主题的提案划分为同一类别，从而发现政协委员关注的热点主题；从每个主题中提取一组关键词，使用微博爬虫程序获取每个关键词的微博数据，通过分析微博数据得到人们对每个主题的关注度和情感变化。</p>
-              <li></li>
+      			  <li>方案：获取公开的政协提案数据，对政协提案数据进行挖掘分析，为政协委员提供信息技术支持。具体如下：将相同主题的提案划分为同一类别，从而发现政协委员关注的热点主题；从每个主题中提取一组关键词，使用微博爬虫程序获取每个关键词的微博数据，通过分析微博数据得到人们对每个主题的关注度和情感变化。</p>
             </article>
-            </section>
-
-          <section class="main-section" id="talk">
-            <header>演讲</header>
-            <article>
-              <p></p>
-              <li></li>
-              </artice>
-            </section>
-
-          <section class="main-section" id="paper">
-            <header>论文</header>
-            <article>
-              <p></p>
-              <li></li>
-              </artice>
-            </section>
-
-          <section class="main-section" id="code">
-            <header>代码</header>
-            <article>
-              <p></p>
-              <li></li>
-              </artice>
-            </section>
-
-      <!-- <section class="main-section" id="">
-        <header></header>
-        <article>
-          <p></p>
-          <li></li>
-          </artice>
-        </section> -->
+      </section>
 
     </main>
 
