@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)file:///Users/danbaohui/Desktop/wzr.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>魏中锐</title>
+        <link rel="stylesheet" href="file:///Users/danbaohui/Desktop/style.css">
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>魏中锐</header>
+      <ul>
+        <a class="nav-link" href="file:///Users/danbaohui/Desktop/wzr.html#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="file:///Users/danbaohui/Desktop/wzr.html#traffic" rel="internal"><li>交通流量预测研究</li></a>
+        <a class="nav-link" href="file:///Users/danbaohui/Desktop/wzr.html#talk" rel="internal"><li>演讲</li></a>
+        <a class="nav-link" href="file:///Users/danbaohui/Desktop/wzr.html#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="file:///Users/danbaohui/Desktop/wzr.html#code" rel="internal"><li>代码</li></a>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/数据挖掘/模式挖掘</p>
+          <li>2017.09-2019.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2013.09-2017.07 北京交通大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong><a href="mailto:1219611671@qq.com">252151591@qq.com</a> </p>
+          
+        </article></section>
+
+        <section class="main-section" id="交通流量预测研究">
+          <header>交通流量预测研究</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+       
+			<p>随着社会的发展，交通拥堵等交通问题已日渐显著。作为解决交通问题的有 效手段之一，智能交通系统已经越来越受到人们的推崇。其中，交通流量预测是 智能交通系统的基础，它通过利用历史数据对交通流量进行准确预测，从而对交 通规划、用户出行提供准确的建议。然而，目前的交通流量预测的方法还存在很 多的不足。大部分的交通流量预测方法仅基于流量的时间序列特征信息进行预测， 这样会造成信息的缺失从而降低预测的准确性;其它的预测方法虽综合利用了特 定地点的时空特征信息，但空间特征提取方法并不完善，提取出的空间特征信息 的准确度有待提升，因此会对预测的准确性带来不良影响。</p>
+			<p>针对上述问题，本文提出了一种基于深度学习的交通流量预测方法，通过对 数据的处理与整形，利用图卷积网络与长短期记忆网络提取交通流量的时空特征， 对其进行预测，并结合时间周期、天气信息等其他相关因素特征对交通流量进行 预测的结果，实现更准确的预测。本文的主要贡献如下:</p>
+            <p>(1) 针对传统的交通流量预测空间特征提取方法的不足，提出了一种更实用、 更符合实际交通网络结构的空间特征提取方法。该方法的特色在于:它将路网视 为拓扑图，其中道路上的交通流量作为边的特征，利用图论中线图转换的方法， 将路网拓扑转换为路邻接拓扑，道路上的交通流量变为节点信息特征，然后将路 邻接拓扑矩阵与节点特征矩阵送入图卷积网络中，实现对交通流量空间特征的合 理提取与利用。在北京市出租车数据集上的实验评估结果显示，该方法相对于 CNN+LSTM 准确率有显著的提升，均方误差为 1.8774，预测误差降低了 56.9%。</p>
+			<p>(2) 通过结合深度学习提取的时空特征的预测结果与其他相关特征的预测 结果，设计了一种基于深度学习的交通流量预测系统。该系统通过合理提取交通 流量的时空特征进行预测，然后将该结果与利用交通流量有关的其他特征(周期 特征、天气特征)的预测结果结合，得到最终的交通流量预测结果。在北京市出 租车数据集上的实验评估结果显示，本文提出的交通流量预测系统相比于以往的 方法准确率有了明显提升，均方误差为 1.6203，相比于 CNN+LSTM 预测误差降 低了 62.8%，相比于(1)中提出的预测方法预测误差降低了 13.7%。</p>
+			
+			<p>本文提出的流量预测方法具有通用性，能够用于道路网络和信息网络的时空 序列预测问题，因此有一定的理论研究价值。本文提出的流量预测方法和系统能 够准确预测道路交通流量，有着很强的现实意义和实际价值。<p> <strong>关键词</strong>：<p> 深度学习;交通流量预测;线图;图卷积网络</p></p></p>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2018年硕士毕业论文《基于深度学习的交通流量预测》，
+                <a href="file:///Users/danbaohui/Desktop/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E6%9C%80%E7%BB%88%E7%89%88%E6%9C%AC_%E7%AD%BE%E5%90%8D%E7%89%88.pdf">PDF</a>（2.73MB），
+                <a href="file:///Users/danbaohui/Desktop/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E6%9C%80%E7%BB%88%E7%89%88%E6%9C%AC.docx">WORD</a>（3.85MB），
+                <a href="file:///Users/danbaohui/Desktop/%E6%AF%95%E4%B8%9A%E7%AD%94%E8%BE%A9PPT.pptx">PPT</a> （5.3MB），
+                <!--<a href="#">Video</a>（B站链接），
+                <a href="#">Code</a> （Github链接，Private）
+			</li>-->
+
+		  </li></article>
+          </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              
+            </article></section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              
+            </article></section>
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    
+
+</body></html>
