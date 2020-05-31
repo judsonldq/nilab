@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>尹姜谊</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>尹姜谊</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>基于异质信息的跨领域推荐系统</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/数据挖掘/推荐算法</p>
+          <li>2020.09 至今 中国科学院信息工程研究所 </li>
+          <li>2017.09-2020.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2013.09-2017.07 北京交通大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:yinjiangyi1996@gmail.com">yinjiangyi1996@gmail.com</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/YinJiangyi">YinJiangyi</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="recom">
+          <header>基于异质信息网络的跨领域推荐系统</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>在互联网技术飞速发展的今天，个性化推荐系统已经在人类生活中扮演越来越重要的角色。传统推荐系统的个性化实现需要大量的用户行为信息。当用户和项目的互动行为数据稀疏甚至缺失时，个性化推荐系统的效果会受到不利影响，产生冷启动问题。</p>
+            <p>目前，为解决用户行为数据稀疏造成的推荐系统冷启动问题，主要的研究方向有基于异质信息网络的推荐和跨领域推荐。前者通过引入异质网络信息来补充用户项目互动行为数据的不足。可是，由于目标域数据本身不够丰富，并且基于网络结构的用户和项目的表达不能同时很好地提取个性化特征，异质信息带来的提升十分有限；后者引入数据相对密集的辅助信息，通过对辅助域知识的迁移和整合来提高模型的效果，但因为辅助知识的类型相对单一，模型的适应性和可扩展性较弱。
+            </p>
+            <p>针对上述问题，本文提出结合基于异质信息网络和跨领域的推荐算法，同时引入异质信息和跨领域信息来解决用户行为稀疏导致的冷启动问题，并分别针对评分预测和Top-K列表推荐两种个性化推荐场景，提出了基于异质信息的跨领域推荐算法，最后通过实验基于真实数据对算法进行了有效性评估。具体贡献如下。</p>
+            </p>
+            <li>针对个性化推荐中由于行为数据稀疏造成的冷启动问题，本文提出采用基于异质信息网络的跨领域推荐算法。该算法采用标签作为桥梁，构造跨领域异质信息网络，同时引入异质信息和跨领域信息作为辅助信息，将基于异质信息网络的推荐和跨领域推荐进行有机结合，实现推荐算法的融合。</li>
+            <li>针对评分预测场景，提出基于网络表征的融合算法框架HecRec以挖掘复杂多样的跨领域异质信息。同时，为了避免了信息间冲突造成知识的负迁移情况，采用了“立交桥式”向量处理方法，以最大化融合框架的优势，提高推荐效果。实验证明，融合算法框架的绝对平均误差为0.6384，比相关工作中表现最优的算法降低了2.7%。</li>
+            <li>针对Top-K列表推荐场景，提出基于嵌入传播层的融合算法模型EPCDRec进行跨领域异质信息的挖掘，并在端到端模型中实现推荐效果的提升。融合模型在真实数据集上的准确率、召回率和归一化折损累计增益分别达到了0.13、0.16和0.22，比相关工作中表现最优的算法分别提升了2.8%、1.2%和3.0%。</li>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2017级硕士毕业论文《基于异质信息网络的跨领域推荐系统》，
+                <a href="硕士毕业论文签名版.pdf">PDF</a>（2.7 MB），
+                <a href="基于异质信息网络的跨领域推荐系统.docx">WORD</a>（4.3MB），
+                <a href="基于异质信息网络的跨领域推荐系统.pptx">PPT</a> （4.5MB），
+                <!-- <a href="#">Video</a>（B站链接）， -->
+                <a href="https://github.com/YinJiangyi/HIN_based_cross-domain_recommendation_systems">Code</a>
+            </li>
+
+            <li>学术论文，J. Yin, Y. Guo and Y. Chen, "Heterogenous Information Network Embedding Based Cross-Domain Recommendation System," 2019 International Conference on Data Mining Workshops (ICDMW), Beijing, China, 2019.
+                <a href="ICDMW2019.pdf">PDF</a> （984kB），
+                <a href="ICDMW2019.doc">WORD</a> （中文简介16kB），
+                <!-- <a href="#">Video</a> （B站链接）， -->
+                <a href="https://github.com/YinJiangyi/HIN_based_cross-domain_recommendation_systems/tree/master/HecRec">Code</a> ，
+                <a href="https://github.com/YinJiangyi/HIN_based_cross-domain_recommendation_systems/blob/master/ICDMW2019.pdf">Latex</a> ，
+            </li>
+            </artice>
+          </section>
+
+   <!--        <section class="main-section" id="traffic">
+            <header>交通大数据</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="talk">
+            <header>演讲</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section> -->
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    </body>
+</html>
