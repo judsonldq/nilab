@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>刘翰文</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>刘翰文</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>调查问卷自动化审核系统</li></a>
+		<a class="nav-link" href="#gain" rel="internal"><li>成果</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：问卷审核/相似度计算/系统设计</p>
+          <li>2018.09-2020.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2014.09-2018.07 北京交通大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:18125030@bjtu.edu.cn">18125030@bjtu.edu.cn</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/shaoniankanjian">LiuHanwen</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="recom">
+          <header>调查问卷自动化审核系统</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+			<p>科普调查是国家掌握国民科学素质的重要工具，也是国家制定提升科学素质相关政策的重要依据。入户问卷调查作为科普机构采集各种科普调查数据的主要方式，调查过程的规范与否会影响获得数据的可靠性，进而影响相关决策的科学性。目前对调查过程规范与否的审核主要依靠对于调查问卷信息进行人工审核，人工审核需消耗大量人力、物力资源，并且单份问卷的审核时间较长、效率较低，无法满足对逐年增长的调查问卷的审核需求。</p>
+			
+			<p>采用调查问卷自动化审核系统来协助相关人员进行问卷的审核，可以减轻审核人员的压力，并提高审核问卷的效率。然而关于调查问卷自动化审核的研究相对较少，已有的部分研究中对于问卷审核也存在适用范围有限、无法提供错误原因解释等诸多问题。为此，本文针对调查问卷可能出现的问题进行详细的分析，设计并实现了一套调查问卷自动化审核系统，从语音、图像和GPS等方面对问卷合格性进行审查，并使用2019年河北地区的调查问卷数据进行了测试。经测试，审核1份问卷的平均时间约为1分钟，效率远高于人工审核的效率。具体来说，本文主要工作包括以下几个方面：</p>
+			
+			<li>(1)使用语音技术提高调查问卷的审核精度。通过语音识别技术，将调查过程中的录音信息转成文字信息，并根据相关题目的文本进行文本相似度计算，根据设定的阈值确定错误题目编号及类型，并使用静默检测、汉语拼音修正等方法提高系统的效率及准确率。使用音频分析对于问卷中各小题进行审核的AUC值达到了0.95， Precision、Recall、F1值分别达到了0.96、0.93、0.94。</li>
+			<h1></h1>
+			<li>(2)使用图像识别技术和GPS技术提高调查问卷的审核精度。针对问卷中随机拍摄的图像，图像模块使用人脸检测方法识别图像中的人数和性别，以判断调查环境、受访者性别是否合乎要求。地理位置模块使用GPS功能对调查地点的地理位置进行分析，判断调查员是否按照要求前往了指定的居委会调查。数据表明图像模块可以审核出现有人工审核尚未发现的约0.8%的性别作弊问题，地理位置模块对于现有人工审核出的地理位置作弊问题的召回率为100%，且能够发现更多潜在的作弊问卷。</li>
+			<h1></h1>
+			<li>(3)在实际系统中实现了一套调查问卷自动化审核系统。对原有的后台管理系统进行了修改，实现了一套包含上述功能的调查问卷自动化审核系统并在阿里云服务器上进行了部署，提供了相关审核页面方便相关人员对错误原因进行查询。使用多线程并行处理、IP地址检测等方法，保证了系统的有效性和可靠性。</li>
+			
+			</section>
+			<section class="main-section" id="gain">
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《调查问卷自动化审核系统的实现及其优化》，
+                <a href="刘翰文论文.pdf">PDF</a>（1.38 MB），
+                <a href="刘翰文论文.docx">WORD</a>（3.55MB），
+                <a href="刘翰文毕业答辩.pptx">PPT</a> （2MB）
+
+            </artice>
+          </section>
+
+
+    </main>
+
+
+    </body>
+</html>
