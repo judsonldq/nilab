@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>刘子可</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>刘子可</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>移动通信基站故障类型的识别</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/数据挖掘/故障类型识别</p>
+          <li>2018.09-2020.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2014.09-2018.07 北京交通大学 | 光电信息科学与工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:aifangzhe@gmail.com">18125037@bjtu.edu.cn</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/Lzk-1">Lzk-1</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="">
+          <header>移动通信基站故障类型的识别</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>移动通信基站是移动通信网的主体设备，其稳定可靠的工作对于移动通信网的稳定可靠运行来说至关重要。然而，在实际的工作过程中基站故障时有发生，且当基站发生故障时，通信运营商仅能收到少量的信息：故障发生的时刻以及相伴随发生的告警的发生时刻。因此，如何有效的利用这些少量的已知信息识别出基站故障的类型，帮助运维人员对基站故障进行快速定位和有针对性的维修，从而使基站能够快速恢复到正常工作状态，是通信运营商一直关心的问题。</p>
+
+            <p>告警作为基站运行状态异常的反映，并不意味着故障一定发生；但是一旦发生故障，一定会伴随告警产生。两者之间的这种关联关系，是我们对基站故障类型识别的重要依据。然而，利用这种关系对基站故障类型进行识别存在两个难点：一是告警信息中存在着大量的冗余告警；二是故障和告警之间的关联关系具有不确定性，即一个故障的发生会引起多种告警的产生，而一个告警的产生可能是由不同类型故障引起的。针对以上难点，本文选择在解决不确定性问题方面具有巨大优势的贝叶斯网络作为核心算法，建立基站故障类型识别的贝叶斯网络模型，并通过去除冗余告警来对模型进行优化。通过测试，本文建立的贝叶斯网络模型对基站故障类型识别的F1分数能够达到0.912。本文的主要工作如下：</p>
+            </p>
+            <li>（1）基站告警数据和故障数据分析。分别对基站告警数据和故障数据进行分析，对基站告警数量和故障数量之间的相关性进行分析，为后续研究工作的开展提供支持。</li>
+            <li>（2）基站告警之间以及故障和告警之间关联关系挖掘。根据基站告警数据和故障数据的特点，分别提出了一种基于聚类和可变滑动时间窗的告警事务提取方法以及一种基于聚类和异常值检测的故障-告警事务提取方法，继而完成基站告警之间以及故障和告警之间关联关系的挖掘。</li>
+             <li>（3）基站故障类型识别的贝叶斯网络模型的建立。根据基站告警之间以及故障和告警之间的关联关系建立基站故障类型识别的贝叶斯网络模型，并通过去除贝叶斯网络中的冗余告警来对模型进行优化，降低模型的复杂度。</li>
+              <li>（4）基站故障类型识别的贝叶斯网络模型的评估。利用真实的基站故障记录数据来对贝叶斯网络模型进行测试，并对模型测试的结果进行分析。</li>
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《移动通信基站故障类型的识别》，
+                <a href="硕士毕业论文签名版.pdf">PDF</a>（3.58 MB），
+                <a href="移动通信基站故障类型的识别.docx">WORD</a>（17.1MB），
+                <a href="移动通信基站故障类型的识别.pptx">PPT</a> （4.22MB）。
+            </li>
+
+            </artice>
+          </section>
+
+    </main>
+
+
+    </body>
+</html>
