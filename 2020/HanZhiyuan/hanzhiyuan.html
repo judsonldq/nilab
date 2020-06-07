@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>韩致远</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>韩致远</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>电子价签检测算法研究与系统实现</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/图像算法</p>
+          <li>2018.09-2020.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2014.09-2018.07 北京交通大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:aifangzhe@gmail.com">18125015@bjtu.edu.cn</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/Hknight514880265">hzy</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="">
+          <header>电子价签检测算法研究与系统实现</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>随着实体零售和传统电商迎来增长“瓶颈”，“新零售”的崛起为销售市场注入了新的活力。电子价签作为一种实时价格显示装置，成为了“新零售”最基础、最重要的元素之一。电子价签的自动视觉检测能够定位商品，实现货架的自动陈列，对支撑“新零售”体系线上和线下联动至关重要，同时也极具挑战。目前已有的目标检测方法并不能很好地检测出电子价签，基于区域生成的深度学习目标检测算法虽然检测精度较高，但不满足实时性的要求；基于回归方法的深度学习目标检测算法不能较好地提取出小尺度、高密度检测对象的特征。</p>
+
+            <p>针对上述问题，本文提出了一种新的特征融合方法，通过两次融合相邻的特征图，能够更好地融合低层特征图的位置信息和语义信息，提升对区域密集目标的检测精度。接着本文引入了注意力模块，进一步提升了对小尺度目标的检测效果。具体贡献如下：</p>
+            </p>
+            <li>(1)大规模电子价签数据集的制作和检测系统的设计。本文完成了对电子价签数据集的采集、筛选以及标注工作，该数据集包含14713张图片。接着本文根据设计需求，设计了电子价签检测系统，并对各功能模块进行详细说明。</li>
+            <li>(2)针对电子价签数据集检测对象尺度小、密度高等特点，提出了一种新的特征融合方法。该方法两次对相邻的特征图进行特征融合，使得网络更加关注低层特征图的位置信息和语义信息，提升对小尺度目标的检测精度。同时两次融合的低层特征图有部分重合，使得网络更加关注区域密集目标，提升对高密度目标的检测精度。实验结果显示：该方法相对SSD算法在性能上有显著提升，mAP值提高了8.8%。</li>
+             <li>(3)在特征融合的基础上本文进一步引入了注意力机制，使特征融合更关注较低层特征图，进一步提升对小尺度目标的检测精度。实验结果显示：引入注意力模块可以进一步提示模型检测的性能，mAP值提高2.8%，共提升11.6%。</li>
+              <li>(4)本文设计和实现的电子价签检测系统有助于实现“新零售”体系线上和线下联动，完成对商品的自动定位、货架的自动陈列，具有重要的经济价值、社会价值。</li>
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《电子价签检测算法研究与系统实现》，
+                <a href="2018级专硕论文-韩致远.pdf">PDF</a>（3.05 MB），
+                <a href="2018级专硕论文-韩致远.docx">WORD</a>（6.62 MB），
+                <a href="2018级专硕答辩PPT-韩致远.pptx">PPT</a> （5.72 MB）。
+            </li>
+
+            </artice>
+          </section>
+
+    </main>
+
+
+    </body>
+</html>
