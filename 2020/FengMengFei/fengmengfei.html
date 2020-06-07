@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>冯梦菲</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>冯梦菲</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>相似题推荐系统</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>相似题推荐系统</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：自然语言处理</p>
+          <li>2020.09 至今 中国移动通信有限公司研究院 </li>
+          <li>2017.09-2020.07 北京交通大学 | 通信与信息系统 | 硕士 </li>
+          <li>2013.09-2017.07 北京交通大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:17120052@bjtu.edu.cn">17120052@bjtu.edu.cn</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/fmf1287">fmf1287</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="">
+          <header>相似题推荐系统</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>目前，虽然在线教育已取得巨大进步，但在现有的教学系统中，优质的教师资源仍然是在线教育平台的核心，也是稀缺资源，这制约着在线教育的大规模普及。人工智能是解决上述瓶颈的重要的方法，它在在线教育中的应用已成为我国发展规划战略中最重要的一环。相似题推荐系统是人工智能在线教育领域中的重要应用。从老师的角度，在课程结束时，可以通过习题检索为学生布置习题；从学生的角度，当一个学生做错某类题目或花费的时间过多时，应当推荐类似的习题让学生练习以掌握该知识点。在实际教学中，这些工作都是由教师完成的，耗时耗力，效率不高。如果能够基于人工智能技术准确及时地根据习题相似度推荐习题，不但能够减轻老师的负担，还能让学生得到及时的反馈，提升教学质量。</p>
+
+            <p>传统的相似题推荐技术有两点不足：1) 仅仅能够得到分开不相似习题表征的超平面，没有着重于增加不相似习题之间的距离，同时减少相似习题之间的距离，进而得到不相似习题距离较远、相似习题较近的空间；2) 仅仅关注问题文本所能带来的信息，忽略了习题解答的作用。</p>
+            <p>为了解决这类问题，本文在已有的深度学习及自然语言处理技术的基础之上进行改进，对习题进行表征并在相似习题任务中取得提升。具体贡献如下：</p>
+            </p>
+            <li>(1)为了将习题映射到相似习题距离较近、不相似习题距离较远的习题表征空间中，利用孪生神经网络架构能够将输入映射到用空间距离反映“语义”距离的目标空间中的原理，设计出基于Siamese架构和Triplet架构的习题相似度模型。本论文所用的中文数学数据集上的实验结果说明：Siamese架构能对模型效果进行提升，且基于Triplet架构的模型效果比基于Simaese架构的模型好。例如，在一个习题含有5道相似题和200道不相似题的候选集中，基于Siamese架构的SBERT-CLS模型的MAP分数为0.35，比未用Siamese架构改进的BERT高出0.33；而基于Triplet架构的TBERT-CLS模型MAP分数为0.61，比SBERT-CLS模型高出0.26。TBERT-CLS模型比表现最好的基线模型VSM高出0.23（即相对提升了60.5%）。</li>
+            <li>(2) 为了更好地捕获习题问题和解答之间的关系，本论文设计出融合利用习题问题和解答的文本表征模型。具体来说，该模型不仅能够支持两道习题的问题文本-问题文本的匹配和解答文本-解答文本的匹配，还支持一道习题的问题文本和另一道习题的解答文本之间的相似度匹配。实验结果证实了充分利用习题的问题文本和解答文本带来了很大提升。例如，在一个习题含有5道相似题和200道不相似题的候选集中，TBERT-QA模型的MAP分数为0.65，比仅考虑习题问题文本相似度匹配的TBERT-CLS模型高出0.04（即相对提升了6.6%），比表现最好的基线模型VSM高出0.27（即相对提升了71.1%）。</li>
+
+    <li>(3) 本论文还利用Text-CNN进行池化操作，进一步获取综合全面的习题文本表征。实验结果说明CNN的池化方式能够提升一定的模型效果。例如，在一个习题含有5道相似题和200道不相似题的候选集中，TBERT-QA-CNN模型的MAP分数为0.66，比未加入CNN池化的TBERT-QA模型高出0.01（即相对提升了1.5%），比表现最好的基线模型VSM的高出0.28（即相对提升了73.7%）。</li>
+
+         <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《基于深度学习的习题理解和应用算法研究》，
+                <a href="硕士毕业论文签名版.pdf">PDF</a>（3.58 MB），
+                <a href="基于深度学习的习题理解和应用算法研究.docx">WORD</a>（2.27MB），
+                <a href="基于深度学习的习题理解和应用算法研究.pptx">PPT</a> （1.22MB），
+                <!-- <a href="#">Video</a>（B站链接）， -->
+                <a href="https://github.com/AiFangzhe/Exercise-Recommendation-System">Code</a>
+            </li>
+
+            <li>学术论文，Feng M, Chen Y, Guo Y, et al. Learning Text Representations for Finding Similar Exercises[C]. international conference on consumer electronics, 2019.                <a href="ICCE2019.pdf">PDF</a> （632kB），
+                <a href="ICCE2019.doc">WORD</a> （中文简介15kB），
+                <!-- <a href="#">Video</a> （B站链接）， -->
+                <a href="https://github.com/AiFangzhe/Exercise-Recommendation-System">Code</a> ，
+                <a href="https://github.com/AiFangzhe/Exercise-Recommendation-System/tree/master/paper/EDM2019">Latex</a> ，
+            </li>
+            </artice>
+          </section>
+
+   <!--        <section class="main-section" id="traffic">
+            <header>交通大数据</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="talk">
+            <header>演讲</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="paper">
+            <header>论文</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section>
+
+          <section class="main-section" id="code">
+            <header>代码</header>
+            <article>
+              <p></p>
+              <li></li>
+              </artice>
+            </section> -->
+
+      <!-- <section class="main-section" id="">
+        <header></header>
+        <article>
+          <p></p>
+          <li></li>
+          </artice>
+        </section> -->
+
+    </main>
+
+
+    </body>
+</html>
