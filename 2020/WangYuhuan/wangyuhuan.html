@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>王玉环</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>王玉环</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>室内定位研究</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：机器学习/室内定位/Wi-Fi信号</p>
+          <li>2019.09 至今 北京金山云网络技术有限公司 </li>
+          <li>2017.09-2019.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2013.09-2017.07 青岛大学 | 通信工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:aifangzhe@gmail.com">17854238060@163.com</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/yuhuanwang">yuhuanwang</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="">
+          <header>Wi-Fi室内定位研究</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>近年来，基于位置的应用发展迅速，已成为物联网时代的重要特征。Wi-Fi设施部署简单、成本低廉且信号易得，这使得Wi-Fi指纹定位成为室内定位的有力竞争者。</p>
+
+            <p>然而由于室内环境复杂多变，Wi-Fi信号传输中产生反射、散射、折射，其信号具有很强的时变性及非线性，采用传统室内定位方法难以捕捉信号的变化规律，定位精度较差。
+            </p>
+            <p>本文将深度学习方法用于室内定位，针对提高定位精度及应对AP故障造成的数据缺失两个方面，设计定位方案。</p>
+            </p>
+            <li>(1)首先，基于实测数据集进行定位试验，验证机器学习用于定位的可行性。在北京交通大学某教室内，信号采集指纹点间隔0.6 m，共收集到224个参考点下的数据计6,720条。利用kNN、随机森林等机器学习算法进行了定位实验，定位精度最高可达1.62 m。</li>
+            <li>(2) 基于UJIIndoorLoc公开数据集，构建RSSI图像，提出了CNN-IMG定位方案。结果表明，该方案在建筑物及楼层定位中表现一般，房间经纬度定位精度为8.6 m。考虑到RSSI的单次读数误差的不稳定性，基于一维时间序列提出了1D-ResNet定位方案。该方案在建筑物及楼层定位上均实现了100%的分类准确率，且房间经纬度的定位精度达到了3.45 m，均优于现有论文中的最佳定位性能。同时，将该定位方案应用于前述的实测数据集中，定位精度为1.53 m，较机器学习算法稍有改善。</li>
+            <li>(3)针对AP故障导致的数据缺失问题，提出了故障AP检测与数据修补算法。基于轻量级网络ShuffleNetV1检测故障AP，在非时间序列及时间序列两种输入数据格式下，检测准确率分别达到77.8%及85.07%。采用RSSI均值补全AP缺失数据后，再由ResNet进行定位。结果表明，与未进行缺失数据补全的方案相比，数据补全后的定位误差最高可降低约0.95 m。</li>
+            
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《基于深度学习的RSSI室内指纹定位研究》，
+                <a href="硕士毕业论文签名版.pdf">PDF</a>（2.24 MB），
+                <a href="基于深度学习的RSSI室内指纹定位研究.docx">WORD</a>（3.54MB），
+                <a href="基于深度学习的RSSI室内指纹定位研究.pptx">PPT</a> （3.59MB），
+                
+            </li>
+
+            
+            </artice>
+          </section>
+
+  
+
+    </main>
+
+
+    </body>
+</html>
