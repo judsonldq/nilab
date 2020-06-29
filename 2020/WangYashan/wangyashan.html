@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>王亚珊</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>王亚珊</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>面向轨迹相似度计算的轨迹深度表达学习研究</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：深度学习/轨迹挖掘</p>
+          <li>2018.09-2020.07 北京交通大学 | 电子与通信工程 | 硕士 </li>
+          <li>2013.09-2017.07 长沙理工大学 | 电子信息工程 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="mailto:clwangyashan@163.com">18125063@bjtu.edu.cn</a> </p>
+          <p><strong>Github：</strong>： <a href="https://github.com/pddwys">王亚珊</a> </p>
+          </artice>
+        </section>
+
+        <section class="main-section" id="recom">
+          <header>面向轨迹相似度计算的轨迹深度表达学习研究</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>支持GPS的移动设备已经普及，大规模轨迹数据获取及挖掘分析随之成为可能。轨迹相似度计算是轨迹挖掘中的一项基本任务，为移动模式研究、出行行为分析、城市热门区域发现等应用奠定了基础，其研究具有重要的现实意义和实际价值。</p>
+
+            <p>轨迹是空间中一条连续的曲线，通常以由样本点组成的序列形式出现。现实中得到的轨迹通常存在采样频率不一致、采样频率低、有噪声干扰等问题，基于轨迹点对匹配的相似度计算方法难以准确发现相似轨迹。深度学习的方法可以在向量空间提取轨迹的深层特征，得到轨迹的定长、低维表达，在此基础上相似度的计算会更加准确。但目前的轨迹深度表达模型大多数是基于循环神经网络（RNN）的编码器-解码器结构，处理数据时的视野有限，无法解决长距离依赖问题，轨迹特征提取能力有待提升。</p>
+            <p>本文将自然语言处理领域的模型与轨迹表达问题结合，提出了两种基于多头注意力机制的轨迹深度表达模型Transformer-traj和BERT-traj，为相似轨迹的发现提供有力的工具。本文的主要贡献如下：</p>
+            </p>
+            <li>在轨迹深度表达模型中引入了多头注意力机制，代替了传统的以循环神经网络为基础的模型。多头注意力机制在提取特征时能够提取轨迹的长距离特征，并支持不同尺度特征的有效融合，具有更好的轨迹表达能力，同时支持并行计算。</li>
+            <li>提出了轨迹深度表达模型Transformer-traj和BERT-traj，在结构上前者是后者的基础，在性能上后者实现了较高的准确率和较强的特征提取能力。本文通过将经过下采样和加噪声处理的数据作为输入进行模型训练，使得模型在轨迹采样率低、采样率不均匀和有噪声干扰的情况下依然能够较为准确地获得轨迹的向量表达，有良好的健壮性。</li>
+             <li>在真实数据集上的实验验证了BERT-traj获得准确轨迹表征的能力。本文采用了3种测度指标，即自身相似度、交叉相似度和轨迹KNN查询，评估模型的表达准确度，实验结果显示BERT-traj性能优于基线模型。其中交叉相似度既考虑到相似轨迹间的距离、也考虑到不同轨迹间的距离，是一个较为全面的衡量指标。在小型数据集上的结果显示，加噪声和下采样干扰情况下，BERT-traj相比基线模型t2v在这个指标上分别高出23.26%和14.06%；在大型数据集上，BERT-traj相比基线模型t2v分别高出23.71%和22.42%。</li>
+              
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《面向轨迹相似度计算的轨迹深度表达学习研究》，
+                <a href="2018级专硕论文-王亚珊.pdf">PDF</a>（1.87 MB），
+                <a href="2018级专硕论文-王亚珊.docx">WORD</a>（3.94 MB），
+                <a href="2018级专硕答辩PPT-王亚珊.pptx">PPT</a> （1.47 MB）。
+            </li>
+
+            </artice>
+          </section>
+
+    </main>
+
+
+    </body>
+</html>
