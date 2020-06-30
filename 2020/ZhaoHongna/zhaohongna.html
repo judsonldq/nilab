@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>赵红娜</title>
+        <link rel="stylesheet" href="../../files/liststyle.css" />
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+      <header>赵红娜</header>
+      <ul>
+        <a class="nav-link" href="#intro" rel="internal"><li>个人简介</li></a>
+        <a class="nav-link" href="#recom" rel="internal"><li>基于视频转码和视频推荐的缓存设计</li></a>
+        <!-- <a class="nav-link" href="#traffic" rel="internal"><li>知识追踪</li></a> -->
+        <!-- <a class="nav-link" href="#talk" rel="internal"><li>演讲</li></a> -->
+      <!--   <a class="nav-link" href="#paper" rel="internal"><li>论文</li></a>
+        <a class="nav-link" href="#code" rel="internal"><li>代码</li></a>
+      </ul> -->
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header>个人简介</header>
+        <article>
+          <p><strong>研究方向</strong>：视频传输/视频存储</p>
+          <li>2020.09 至今 中信银行股份有限公司 </li>
+          <li>2017.09-2020.07 北京交通大学 | 信息安全 | 硕士 </li>
+          <li>2013.09-2017.07 西安邮电大学 | 信息安全 | 本科 </li>
+          <p><strong>联系方式：</strong>： <a href="1445515785@qq.com">17120196@bjtu.edu.cn</a> </p>
+         
+          </artice>
+        </section>
+
+        <section class="main-section" id="">
+          <header>基于视频转码和视频推荐的缓存设计</header>
+          <article>
+            <p> <strong>摘要</strong>：</p>
+            <p>缓存算法是影响缓存服务器缓存性能的关键因素。传统的缓存算法通常以视频文件的流行度衡量一个文件的价值，优先缓存最有价值的视频文件。近年来，随着终端设备的多样化，一个视频通常需要提供不同清晰度版本以匹配不同终端用户的需求，而这些视频版本能够通过视频编码技术转换，从而给缓存进一步优化设计提供了机会；例如，分层视频编码SVC技术已经被用于设计缓存，通过缓存不同清晰度视频版本中最流行的视频层来提升缓存性能。另一方面，随着视频内容的极大丰富，推荐技术的成熟，越来越多的用户习惯于观看系统推荐的视频，使得视频缓存页也可以结合推荐技术来提高缓存性能。</p>
+
+            <p>与现有研究不同，一方面，本文考虑到视频转码技术有更好的系统兼容性，提出基于视频转码的缓存优化设计，通过使缓存服务器对每个视频最多保留一份最有价值的版本来提高缓存性能；另一方面，现有的基于视频编码和基于推荐的缓存都是各自独立研究的，本文提出了联合视频转码和推荐技术的缓存的研究，以进一步提高缓存系统的性能。具体来说，本文的主要贡献如下。
+            </p>
+            <p>
+            </p>
+            <li>(1) 建立了基于视频转码的缓存优化模型，提出了基于转码的缓存算法，以减小视频传输时延。算法以一个待缓存的视频文件（若缓存）能够在已缓存视频文件的基础上能进一步满足的用户观看请求而带来的传输时延节省来定义文件价值，通过贪婪迭代的方式找到最有价值的视频版本来存贮，直到没有新的文件可放入缓存系统。仿真实验结果表明，相较于传统的基于视频流行度的缓存算法，本文提出的缓存算法能够使平均传输时延降低大约40%，远高于传统算法。</li>
+            <li>(2) 建立了联合转码和推荐缓存优化模型，提出了基于转码与推荐的缓存算法，以进一步减小视频传输时延。算法以一个待存储的视频版本（若缓存）能够在已缓存视频文件的基础上进一步能满足的用户请求而带来的传输时延的减少为基础来计算文件价值，通过贪婪迭代的方式存储最有价值的视频版本。仿真实验结果表明，本文提出的算法的缓存性能更好，尤其在缓存空间较小时，优势更加显著。</li>
+
+            <p> <strong>成果</strong>：</p>
+            <li>
+                北京交通大学2020年硕士毕业论文《基于视频转码和视频推荐的缓存设计》，
+                <a href="硕士毕业论文签名版.pdf">PDF</a>（1.57 MB），
+                <a href="基于视频转码和视频推荐的缓存设计.docx">WORD</a>（1.08 MB），
+                <a href="基于视频转码和视频推荐的缓存设计.pptx">PPT</a> （744KB），
+                
+            </li>
+
+            <li>学术论文，Hongna Zhao, Chunxi Li, Yongxiang Zhao, et al.
+                Transcoding based Video Caching Systems: Model and Algorithm[J],
+                Wireless communications and mobile edge computing, 2019.
+                <a href="TCA2018.pdf">PDF</a> （684KB ），
+                <a href="TCA2018.docx">WORD</a> （中文简介16kB），
+            </li>
+            </artice>
+          </section>
+
+    </body>
+</html>
